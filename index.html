@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Blog - Espaço de Respostas</title>
+
+    <!-- Chamada do arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Blog</h1>
+        <p>Um espaço para compartilhar ideias</p>
+    </header>
+
+    <main>
+
+        <!-- Publicação do blog -->
+        <article class="post">
+
+            <h2>O que você acha da tecnologia na educação?</h2>
+
+            <p class="data">
+                Publicado em 24 de agosto de 2026
+            </p>
+
+            <p>
+                A tecnologia está cada vez mais presente nas escolas.
+                Computadores, celulares, inteligência artificial, robótica
+                e outras ferramentas podem contribuir para o processo
+                de aprendizagem.
+            </p>
+
+            <p>
+                Mas será que a tecnologia sempre melhora a educação?
+                Deixe sua opinião abaixo.
+            </p>
+
+        </article>
+
+
+        <!-- Área de respostas -->
+        <section class="respostas">
+
+            <h2>Deixe sua resposta</h2>
+
+            <form id="formResposta">
+
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="resposta">Sua resposta:</label>
+
+                    <textarea
+                        id="resposta"
+                        rows="6"
+                        placeholder="Digite sua opinião..."
+                        required
+                    ></textarea>
+                </div>
+
+
+                <button type="submit">
+                    Enviar resposta
+                </button>
+
+            </form>
+
+
+            <!-- Mensagem exibida após o envio -->
+            <div id="mensagem"></div>
+
+
+            <!-- Respostas dos visitantes -->
+            <div class="lista-respostas">
+
+                <h2>Respostas dos visitantes</h2>
+
+                <div id="respostas"></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 - Meu Blog</p>
+    </footer>
+
+
+    <!-- Chamada do arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
