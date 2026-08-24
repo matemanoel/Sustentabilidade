@@ -1,5 +1,5 @@
 // ==========================================
-// CAPTURA DOS ELEMENTOS HTML
+// CAPTURA ELEMENTOS do HTML
 // ==========================================
 
 const formulario = document.getElementById("formResposta");
